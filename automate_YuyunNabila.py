@@ -4,7 +4,7 @@ import numpy as np
 
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 
-RAW_DATA_PATH = "data/raw/StudentPerformance.csv"
+RAW_DATA_PATH = "data/raw/StudentsPerformance.csv"
 PROCESSED_DATA_PATH = "data/processed/student_performance_clean.csv"
 
 def load_data(path):
