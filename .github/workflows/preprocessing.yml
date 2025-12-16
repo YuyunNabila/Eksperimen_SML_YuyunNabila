@@ -28,7 +28,7 @@ jobs:
           python automate_YuyunNabila.py
 
       - name: Upload processed dataset
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: processed-dataset
           path: data/processed/
